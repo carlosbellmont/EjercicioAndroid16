@@ -9,7 +9,10 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 
-class PersonajesAdapter(var listaPersonajes : List<Personaje>) : RecyclerView.Adapter<PersonajesAdapter.PersonajesViewHolder>()  {
+class PersonajesAdapter : RecyclerView.Adapter<PersonajesAdapter.PersonajesViewHolder>()  {
+
+
+    var listaPersonajes : List<Personaje> = listOf()
 
     class PersonajesViewHolder(val root: View, val  imageView: ImageView, val textViewNombre: TextView, val textViewRaza : TextView) : RecyclerView.ViewHolder(root)
 
