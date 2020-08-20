@@ -1,4 +1,4 @@
-package com.cbellmont.ejercicioandroid15
+package com.cbellmont.ejercicioandroid16
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

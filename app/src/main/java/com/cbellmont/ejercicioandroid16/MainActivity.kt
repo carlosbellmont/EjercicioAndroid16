@@ -1,7 +1,6 @@
-package com.cbellmont.ejercicioandroid15
+package com.cbellmont.ejercicioandroid16
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
